@@ -1,0 +1,7 @@
+# Bibliotecas principais para integração e variáveis de ambiente
+requests==2.31.0
+python-dotenv==1.0.1
+
+# Ferramentas de testes unitários (requisitos de competências)
+pytest==8.1.1
+pytest-mock==3.12.0
