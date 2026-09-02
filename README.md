@@ -31,7 +31,7 @@ kit-inicio-p0/
 
 ---
 
-## 📖 Documentação do Projeto (`README.md`)
+## Documentação do Projeto (`README.md`)
 
 Este é o documento principal que orienta qualquer pessoa externa a instalar e configurar o projeto de forma totalmente reproduzível (C04).
 
@@ -42,7 +42,7 @@ Este repositório contém o Kit de Início do projeto P0, desenvolvido para real
 
 ---
 
-## 🚀 Como Executar em sua Máquina Local (Passo a Passo)
+## Como Executar em sua Máquina Local (Passo a Passo)
 
 ### Passo 1: Clonar ou Baixar o Repositório
 Abra seu terminal e navegue até a pasta de sua escolha. Clone ou descompacte os arquivos:
