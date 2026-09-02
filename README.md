@@ -1,6 +1,6 @@
 # Kit de Início P0 - Estrutura de Arquivos e Código-Fonte
 
-Este Kit de Início P0 é o alicerce técnico do programa TrendsIA (Residência em TIC 57). No contexto da Aprendizagem Baseada em Projetos (PBL), o desenvolvimento de um fluxo inicial com LLM (Large Language Model) não é apenas um exercício de codificação, mas a fundação estratégica para a construção de agentes de IA complexos.
+Este Kit de Início P0 é o alicerce técnico do programa TrendsIA (Residência em TIC 57). No contexto da Aprendizagem Baseada em Projetos (PBL), o desenvolvimento de um fluxo inicial com LLM (*Large Language Model*) não é apenas um exercício de codificação, mas a fundação estratégica para a construção de agentes de IA complexos.
 
 Este kit funciona como um desbloqueador de execução: ele remove o atrito inicial da configuração de ambiente e autenticação, permitindo que o desenvolvedor foque imediatamente na lógica de processamento e no comportamento do modelo.
 
