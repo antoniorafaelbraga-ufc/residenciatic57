@@ -1,4 +1,6 @@
-# Kit de Início P0 - Estrutura de Arquivos e Código-Fonte
+# Kit de Início P0 - Estrutura de Arquivos e Passo-a-Passo de Execução
+
+Este repositório contém o Kit de Início do projeto P0, desenvolvido para realizar a primeira integração com o LLM institucional seguindo as melhores práticas técnicas de segurança, reprodutibilidade e tratamento de falhas.
 
 Este Kit de Início P0 é o alicerce técnico do programa TrendsIA (Residência em TIC 57). No contexto da Aprendizagem Baseada em Projetos (PBL), o desenvolvimento de um fluxo inicial com LLM (*Large Language Model*) não é apenas um exercício de codificação, mas a fundação estratégica para a construção de agentes de IA complexos.
 
@@ -31,18 +33,11 @@ kit-inicio-p0/
 
 ---
 
-## Documentação do Projeto (`README.md`)
+## Guia de execução do projeto em uma Máquina Local (Passo a Passo)
 
 Este é o documento principal que orienta qualquer pessoa externa a instalar e configurar o projeto de forma totalmente reproduzível (C04).
 
-```markdown
-# TrendsIA - Projeto P0: Primeiro fluxo com LLM
-
-Este repositório contém o Kit de Início do projeto P0, desenvolvido para realizar a primeira integração com o LLM institucional seguindo as melhores práticas técnicas de segurança, reprodutibilidade e tratamento de falhas.
-
 ---
-
-## Como Executar em sua Máquina Local (Passo a Passo)
 
 ### Passo 1: Clonar ou Baixar o Repositório
 Abra seu terminal e navegue até a pasta de sua escolha. Clone ou descompacte os arquivos:
