@@ -61,9 +61,9 @@ def enviar_prompt_llm(prompt: str) -> str:
         
         # Tratamento de códigos de status HTTP específicos de erro de autenticação e rate limit
         if response.status_code == 401:
-            return "Erro de Autenticação (401): A chave de API fornecida é inválida ou expirou."
+            return "Erro de Autenticação (erro HTTP 401): A chave de API fornecida é inválida ou expirou."
         elif response.status_code == 429:
-            return "Erro de Limite de Requisições (429): Você atingiu o limite de taxa de chamadas do LLM."
+            return "Erro de Limite de Requisições (erro HTTP 429): Você atingiu o limite de taxa de chamadas do LLM."
         
         # Dispara exceção para outros códigos de status 4xx/5xx
         response.raise_for_status()
