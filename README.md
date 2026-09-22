@@ -85,7 +85,7 @@ Sua chave de acesso à API do LLM **nunca deve ser inserida diretamente em arqui
 3. Substitua as credenciais fictícias pelas suas chaves de acesso institucionais oficiais:
    ```ini
    LLM_API_BASE_URL=https://api.institucional.ai/v1/chat/completions
-   LLM_API_KEY=sua_chave_real_aqui_sem_vazar
+   LLM_API_KEY=sua_chave_real_aqui_sem_vazar_update
    LLM_MODEL_NAME=modelo-institucional-v1
    # Parâmetros adicionais opcionais
    LLM_TEMPERATURE=0.7
