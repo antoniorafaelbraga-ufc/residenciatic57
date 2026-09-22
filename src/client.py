@@ -18,7 +18,7 @@ def enviar_prompt_llm(prompt: str) -> str:
     # Recupera as configurações das variáveis de ambiente
     api_url = os.getenv("LLM_API_BASE_URL")
     api_key = os.getenv("LLM_API_KEY")
-    model_name = os.getenv("LLM_MODEL_NAME", "modelo-padrao")
+    model_name = os.getenv("LLM_MODEL_NAME")
     
     # Parâmetros de geração opcionais com fallback para erros de conversão
     try:
@@ -67,6 +67,8 @@ def enviar_prompt_llm(prompt: str) -> str:
         
         # Dispara exceção para outros códigos de status 4xx/5xx
         response.raise_for_status()
+
+        print(f"[DEBUG] Resposta JSON bruta: {response.text}")
         
         # Extrai o texto gerado de forma segura do JSON de retorno
         data = response.json()
