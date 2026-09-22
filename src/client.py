@@ -18,7 +18,6 @@ def enviar_prompt_llm(prompt: str) -> str:
     # Recupera as configurações das variáveis de ambiente
     api_url = os.getenv("LLM_API_BASE_URL")
     api_key = os.getenv("LLM_API_KEY")
-    api_key = "REMOVED_TOKEN"
     model_name = os.getenv("LLM_MODEL_NAME")
     
     # Parâmetros de geração opcionais com fallback para erros de conversão
