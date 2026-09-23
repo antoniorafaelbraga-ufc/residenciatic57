@@ -69,6 +69,7 @@ def enviar_prompt_llm(prompt: str) -> str:
         response.raise_for_status()
 
         print(f"[DEBUG] Resposta JSON bruta: {response.text}")
+        print("DEBUG RESPOSTA:", response.status_code)
         
         # Extrai o texto gerado de forma segura do JSON de retorno
         data = response.json()
