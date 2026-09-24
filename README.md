@@ -1,3 +1,8 @@
+## Pré-requisitos
+
+- `Python >= 3.10`
+- Git
+
 # Kit de Início P0 - Estrutura de Arquivos e Passo-a-Passo de Execução
 
 Este repositório contém o Kit de Início do projeto P0, desenvolvido para realizar a primeira integração com o LLM institucional seguindo as melhores práticas técnicas de segurança, reprodutibilidade e tratamento de falhas.
